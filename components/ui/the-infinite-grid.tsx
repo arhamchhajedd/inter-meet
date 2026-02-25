@@ -76,13 +76,13 @@ export const Component = () => {
         <div className="flex gap-4 pointer-events-auto">
           <button 
               onClick={() => router.push('/auth/signup')}
-              className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-all shadow-md active:scale-95"
+              className="px-8 cursor-pointer py-3 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-all shadow-md active:scale-95"
           >
               SignUp
           </button>
           <button 
               onClick={() => router.push('/auth/login')}
-              className="px-8 py-3 bg-secondary text-secondary-foreground font-semibold rounded-md hover:bg-secondary/80 transition-all active:scale-95"
+              className="px-8 cursor-pointer py-3 bg-secondary text-secondary-foreground font-semibold rounded-md hover:bg-secondary/80 transition-all active:scale-95"
           >
              Login
           </button>
